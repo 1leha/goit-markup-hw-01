@@ -9,30 +9,124 @@
   </head>
   <body>
     <div class="page">
-      <div class="page__content">
-        <header class="header">
-          <div class="header__logo"><span>Web</span>Studio</div>
-          <nav class="header__menu">
-            <ul class="menu">
-              <li class="menu__element">Студия</li>
-              <li class="menu__element">Портфолио</li>
-              <li class="menu__element">Контакты</li>
+      <header class="header">
+        <!-- Контейнер для контента -->
+        <div class="container">
+          <nav class="header__navigation">
+            <div class="header__logo logo">
+              <a class="logo__link" href="#"><span>Web</span>Studio</a>
+            </div>
+            <ul class="header__menu">
+              <li class="menu__item">
+                <a href="#" class="menu__link">Студия</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Портфолио</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Контакты</a>
+              </li>
             </ul>
           </nav>
           <div class="header__contacts">
             <div class="header__email email">
-              <a href="mailto:info@example.com" class="email-link">info@example.com</a>
+              <a class="email-link" href="mailto:info@example.com">info@example.com</a>
             </div>
             <div class="header__phone phone">
-              <a href="tel:+38 099 111 11 11" class="tel-link">+38 099 111 11 11</a>
+              <a class="tel-link" href="tel:+38 099 111 11 11">+38 099 111 11 11</a>
             </div>
           </div>
-        </header>
-        <main class="main">
-          <div class="main__"></div>
-        </main>
-        <footer class="footer"></footer>
-      </div>
+        </div>
+      </header>
+      <main class="main">
+        <section class="page-top">
+          <!-- Контейнер для контента -->
+          <div class="container">
+            <h1 class="page-top__title">Эффективные решения<br />для вашего бизнеса</h1>
+            <button class="page-top__button">Заказать услугу</button>
+          </div>
+        </section>
+
+        <section class="specialization">
+          <div class="specialization__peculiarities">
+            <!-- Контейнер для контента -->
+            <div class="container">
+              <ul class="peculiarities__list">
+                <li class="list__item">
+                  <h3 class="item__title">Внимание к деталям</h3>
+                  <p class="item__text">
+                    Идейные соображения, а также начало повседневной работы по формированию позиции.
+                  </p>
+                </li>
+                <li class="list__item">
+                  <h3 class="item__title">Пунктуальность</h3>
+                  <p class="item__text">
+                    Задача организации, в особенности же рамки и место обучения кадров влечет за
+                    собой.
+                  </p>
+                </li>
+                <li class="list__item">
+                  <h3 class="item__title">Планирование</h3>
+                  <p class="item__text">
+                    Равным образом консультация с широким активом в значительной степени
+                    обуславливает.
+                  </p>
+                </li>
+                <li class="list__item">
+                  <h3 class="item__title">Современные технологии</h3>
+                  <p class="item__text">
+                    Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="specialization__main">
+            <!-- Контейнер для контента -->
+            <div class="container">
+              <h2 class="specialization__title title">Чем мы занимаемся</h2>
+              <!-- Контейнер для флекса -->
+              <ul class="specialization__wrapper">
+                <li class="specialization__column">
+                  <div class="specialization__item">
+                    <img
+                      class="item-mage"
+                      width="370"
+                      src="img/spec_box 1.jpg"
+                      alt="Разработка десктоп приложений"
+                    />
+                  </div>
+                </li>
+                <li class="specialization__column">
+                  <div class="specialization__item">
+                    <img
+                      class="item-mage"
+                      width="370"
+                      src="img/spec_box 2.jpg"
+                      alt="Разработка мобильных приложений"
+                    />
+                  </div>
+                </li>
+                <li class="specialization__column">
+                  <div class="specialization__item">
+                    <img class="item-mage" width="370" src="img/spec_box 3.jpg" alt="WEB design" />
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="our-team">
+          <!-- Контейнер для контента -->
+          <div class="container">
+            <h2 class="title">Наша команда</h2>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <!-- Контейнер для контента -->
+        <div class="container"></div>
+      </footer>
     </div>
   </body>
 </html>
